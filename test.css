@@ -1,0 +1,1034 @@
+/* Group 5 */
+
+position: absolute;
+width: 1448px;
+height: 1584px;
+left: 140px;
+top: 150px;
+
+/* MESSAGES */
+
+position: absolute;
+width: 220px;
+height: 29px;
+left: calc(50% - 220px / 2 + 31px);
+top: 932px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: 0.51em;
+
+color: #000000;
+
+/* View More */
+
+position: absolute;
+width: 143px;
+height: 24px;
+left: 1445px;
+top: 935px;
+
+/* Vector */
+
+position: absolute;
+left: 91.9%;
+right: 7.47%;
+top: 50.05%;
+bottom: 48.9%;
+
+background: #000000;
+transform: rotate(-180deg);
+
+/* View More */
+
+position: absolute;
+width: 117px;
+height: 24px;
+left: 1445px;
+top: 935px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Message Tab */
+
+position: absolute;
+width: 1448px;
+height: 44px;
+left: 140px;
+top: 1001px;
+
+/* TRENDING */
+
+position: absolute;
+width: 198.43px;
+height: 44px;
+left: 140px;
+top: 1001px;
+
+/* Rectangle 16 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 198.43px;
+height: 44px;
+left: 140px;
+top: 1001px;
+
+border: 1px solid #000000;
+
+/* TRENDING */
+
+position: absolute;
+width: 117px;
+height: 24px;
+left: 175px;
+top: 1011px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* POPULAR */
+
+position: absolute;
+width: 253.59px;
+height: 44px;
+left: 395px;
+top: 1001px;
+
+/* Rectangle 16 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 253.59px;
+height: 44px;
+left: 395px;
+top: 1001px;
+
+border: 1px solid #000000;
+
+/* POPULAR */
+
+position: absolute;
+width: 107px;
+height: 24px;
+left: 468px;
+top: 1011px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* SERIES */
+
+position: absolute;
+width: 258.56px;
+height: 44px;
+left: 705px;
+top: 1001px;
+
+/* Rectangle 17 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 258.56px;
+height: 44px;
+left: 705px;
+top: 1001px;
+
+background: #000000;
+
+/* SERIES */
+
+position: absolute;
+width: 83px;
+height: 24px;
+left: 793px;
+top: 1011px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #ffffff;
+
+/* SHILOH  */
+
+position: absolute;
+width: 256px;
+height: 44px;
+left: 1020px;
+top: 1001px;
+
+/* Rectangle 18 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 256px;
+height: 44px;
+left: 1020px;
+top: 1001px;
+
+border: 1px solid #000000;
+
+/* SHILOH */
+
+position: absolute;
+width: 88px;
+height: 24px;
+left: 1104px;
+top: 1011px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* FEATURED */
+
+position: absolute;
+width: 256px;
+height: 44px;
+left: 1332px;
+top: 1001px;
+
+/* Rectangle 18 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 256px;
+height: 44px;
+left: 1332px;
+top: 1001px;
+
+border: 1px solid #000000;
+
+/* FEATURED */
+
+position: absolute;
+width: 118px;
+height: 24px;
+left: 1401px;
+top: 1011px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Events */
+
+position: absolute;
+width: 1448px;
+height: 658px;
+left: 140px;
+top: 150px;
+
+/* EVENTS */
+
+position: absolute;
+width: 158px;
+height: 29px;
+left: calc(50% - 158px / 2 + 14px);
+top: 150px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: 0.51em;
+
+color: #000000;
+
+/* List of Events */
+
+position: absolute;
+width: 1447px;
+height: 502px;
+left: 140px;
+top: 306px;
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 313px;
+height: 460px;
+left: 140px;
+top: 306px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 313px;
+height: 460px;
+left: 518px;
+top: 306px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 313px;
+height: 460px;
+left: 900px;
+top: 306px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 313px;
+height: 460px;
+left: 1274px;
+top: 306px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Shiloh 2024 */
+
+position: absolute;
+width: 139px;
+height: 24px;
+left: 230px;
+top: 784px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Hope Alive Christian Centre */
+
+position: absolute;
+width: 326px;
+height: 24px;
+left: 517px;
+top: 784px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Nights of Glory and Success */
+
+position: absolute;
+width: 329px;
+height: 24px;
+left: 896px;
+top: 784px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* The Father’s Blessing */
+
+position: absolute;
+width: 250px;
+height: 24px;
+left: 1310px;
+top: 784px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* View More */
+
+position: absolute;
+width: 143px;
+height: 24px;
+left: 1445px;
+top: 153px;
+
+/* View More */
+
+position: absolute;
+width: 117px;
+height: 24px;
+left: 1445px;
+top: 153px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Vector */
+
+position: absolute;
+left: 91.9%;
+right: 7.47%;
+top: 9.15%;
+bottom: 89.8%;
+
+background: #000000;
+transform: rotate(-180deg);
+
+/* Events Tab */
+
+position: absolute;
+width: 1144px;
+height: 44px;
+left: calc(50% - 1144px / 2 - 1px);
+top: 225px;
+
+/* Past */
+
+position: absolute;
+width: 198.43px;
+height: 44px;
+left: 291px;
+top: 225px;
+
+/* Rectangle 16 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 198.43px;
+height: 44px;
+left: 291px;
+top: 225px;
+
+border: 1px solid #000000;
+
+/* PAST */
+
+position: absolute;
+width: 57px;
+height: 24px;
+left: 361px;
+top: 235px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Recent */
+
+position: absolute;
+width: 253.59px;
+height: 44px;
+left: 548px;
+top: 225px;
+
+/* Rectangle 16 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 253.59px;
+height: 44px;
+left: 548px;
+top: 225px;
+
+border: 1px solid #000000;
+
+/* RECENT */
+
+position: absolute;
+width: 90px;
+height: 24px;
+left: 630px;
+top: 235px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Ongoing */
+
+position: absolute;
+width: 258.56px;
+height: 44px;
+left: 861px;
+top: 225px;
+
+/* Rectangle 17 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 258.56px;
+height: 44px;
+left: 861px;
+top: 225px;
+
+background: #000000;
+
+/* ONGOING */
+
+position: absolute;
+width: 109px;
+height: 24px;
+left: 936px;
+top: 235px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: rgba(255, 255, 255, 0.85);
+
+/* Upcoming */
+
+position: absolute;
+width: 256px;
+height: 44px;
+left: 1179px;
+top: 225px;
+
+/* Rectangle 18 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 256px;
+height: 44px;
+left: 1179px;
+top: 225px;
+
+border: 1px solid #000000;
+
+/* UPCOMING */
+
+position: absolute;
+width: 131px;
+height: 24px;
+left: 1242px;
+top: 235px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Message Row 1 */
+
+position: absolute;
+width: 1447px;
+height: 304px;
+left: 140px;
+top: 1084px;
+
+/* The Mercy of God */
+
+position: absolute;
+width: 446.32px;
+height: 302px;
+left: 140px;
+top: 1084px;
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 446.32px;
+height: 264px;
+left: 140px;
+top: 1084px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Group 2 */
+
+position: absolute;
+width: 427px;
+height: 24px;
+left: 140px;
+top: 1362px;
+
+/* The Mercy of God */
+
+position: absolute;
+width: 204px;
+height: 24px;
+left: 140px;
+top: 1362px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* 2.5K */
+
+position: absolute;
+width: 39px;
+height: 19px;
+left: 528px;
+top: 1365px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Vector */
+
+position: absolute;
+left: 28.88%;
+right: 69.79%;
+top: 71.34%;
+bottom: 27.56%;
+
+background: #f41212;
+
+/* The Father's Blessing */
+
+position: absolute;
+width: 446.32px;
+height: 302px;
+left: 640px;
+top: 1084px;
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 446.32px;
+height: 264px;
+left: 640px;
+top: 1084px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Group 3 */
+
+position: absolute;
+width: 432px;
+height: 24px;
+left: 640px;
+top: 1362px;
+
+/* The Father’s Blessing */
+
+position: absolute;
+width: 250px;
+height: 24px;
+left: 640px;
+top: 1362px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* 400k */
+
+position: absolute;
+width: 44px;
+height: 19px;
+left: 1028px;
+top: 1365px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Vector */
+
+position: absolute;
+left: 57.81%;
+right: 40.86%;
+top: 71.34%;
+bottom: 27.56%;
+
+background: #f41212;
+
+/* Shiloh */
+
+position: absolute;
+width: 446.32px;
+height: 304px;
+left: 1140.68px;
+top: 1084px;
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 446.32px;
+height: 264px;
+left: 1140.68px;
+top: 1084px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Group 4 */
+
+position: absolute;
+width: 432px;
+height: 24px;
+left: 1141px;
+top: 1364px;
+
+/* Shiloh */
+
+position: absolute;
+width: 72px;
+height: 24px;
+left: 1141px;
+top: 1364px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* 400k */
+
+position: absolute;
+width: 44px;
+height: 19px;
+left: 1529px;
+top: 1367px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Vector */
+
+position: absolute;
+left: 86.81%;
+right: 11.86%;
+top: 71.44%;
+bottom: 27.46%;
+
+background: #f41212;
+
+/* Message Row 2 */
+
+position: absolute;
+width: 1447px;
+height: 304px;
+left: 140px;
+top: 1430px;
+
+/* The Mercy of God */
+
+position: absolute;
+width: 446.32px;
+height: 302px;
+left: 140px;
+top: 1430px;
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 446.32px;
+height: 264px;
+left: 140px;
+top: 1430px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Group 2 */
+
+position: absolute;
+width: 427px;
+height: 24px;
+left: 140px;
+top: 1708px;
+
+/* The Mercy of God */
+
+position: absolute;
+width: 204px;
+height: 24px;
+left: 140px;
+top: 1708px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* 2.5K */
+
+position: absolute;
+width: 39px;
+height: 19px;
+left: 528px;
+top: 1711px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Vector */
+
+position: absolute;
+left: 28.88%;
+right: 69.79%;
+top: 89.44%;
+bottom: 9.47%;
+
+background: #f41212;
+
+/* The Father's Blessing */
+
+position: absolute;
+width: 446.32px;
+height: 302px;
+left: 640px;
+top: 1430px;
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 446.32px;
+height: 264px;
+left: 640px;
+top: 1430px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Group 3 */
+
+position: absolute;
+width: 432px;
+height: 24px;
+left: 640px;
+top: 1708px;
+
+/* The Father’s Blessing */
+
+position: absolute;
+width: 250px;
+height: 24px;
+left: 640px;
+top: 1708px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* 400k */
+
+position: absolute;
+width: 44px;
+height: 19px;
+left: 1028px;
+top: 1711px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Vector */
+
+position: absolute;
+left: 57.81%;
+right: 40.86%;
+top: 89.44%;
+bottom: 9.47%;
+
+background: #f41212;
+
+/* Shiloh */
+
+position: absolute;
+width: 446.32px;
+height: 304px;
+left: 1140.68px;
+top: 1430px;
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 446.32px;
+height: 264px;
+left: 1140.68px;
+top: 1430px;
+
+background: #d9d9d9;
+border-radius: 10px;
+
+/* Group 4 */
+
+position: absolute;
+width: 432px;
+height: 24px;
+left: 1141px;
+top: 1710px;
+
+/* Shiloh */
+
+position: absolute;
+width: 72px;
+height: 24px;
+left: 1141px;
+top: 1710px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* 400k */
+
+position: absolute;
+width: 44px;
+height: 19px;
+left: 1529px;
+top: 1713px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+/* Vector */
+
+position: absolute;
+left: 86.81%;
+right: 11.86%;
+top: 89.54%;
+bottom: 9.36%;
+
+background: #f41212;
