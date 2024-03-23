@@ -6,28 +6,28 @@ import { FiYoutube } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className="bg-black flex flex-col md:flex-row flex-1 bottom-0 justify-evenly h-full py-20 md:h-48 md:py-1">
-      <div className="flex justify-center items-center md:flex-1">
+    <div className="bg-black flex flex-col md:flex-row flex-1 bottom-0 justify-evenly h-full py-20 md:h-48 md:py-1 px-10 md:px-0">
+      <div className="flex md:justify-center md:items-center md:flex-1">
         <img
           src="/logo-light.png"
           alt="Isaac Omolehin Ministries Logo"
           className="h-10 w-auto"
         />
       </div>
-      <div className="flex items-start md:items-center mt-10 gap-8 md:mt-0 justify-center mx-auto flex-col md:flex-row md:gap-16 md:flex-1">
+      <div className="flex items-start md:items-center mt-10 gap-8 md:mt-0 justify-center flex-col md:flex-row md:gap-16 md:flex-1">
         <div className="flex justify-center flex-col mt-4 md:mt-0">
           <p className="font-Inter text-white font-extrabold text-sm">
             Connect
           </p>
-          <div className="pt-1 flex flex-row gap-2">
+          <div className="pt-1.5 flex flex-row gap-2">
             <a href="https://instagram.com/">
-              <AiOutlineInstagram size={25} className="text-white" />
+              <AiOutlineInstagram size={28} className="text-white" />
             </a>
             <a href="https://twitter.com/">
-              <RiTwitterXLine size={24} className="text-white" />
+              <RiTwitterXLine size={27} className="text-white" />
             </a>
             <a href="https://facebook.com/">
-              <PiFacebookLogo size={25} className="text-white" />
+              <PiFacebookLogo size={28} className="text-white" />
             </a>
           </div>
         </div>
@@ -35,10 +35,10 @@ const Footer = () => {
           <p className="font-Inter text-white font-extrabold text-sm">
             Contact
           </p>
-          <div className="pt-1 flex flex-row gap-2">
+          <div className="pt-1.5 flex flex-row gap-2">
             <a
               href="mailto:info@isaacomolehin.org"
-              className="text-white text-base font-Inter"
+              className="text-white text-sm font-Inter"
             >
               info@isaacomolehin.com
             </a>
@@ -48,9 +48,9 @@ const Footer = () => {
           <p className="font-Inter text-white font-extrabold text-sm">
             Streams
           </p>
-          <div className="pt-1 flex flex-row gap-2">
+          <div className="pt-1.5 flex flex-row gap-2">
             <a href="https://youtube.com/">
-              <FiYoutube size={25} className="text-white" />
+              <FiYoutube size={28} className="text-white" />
             </a>
           </div>
         </div>
