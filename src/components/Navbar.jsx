@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { IoMenu, IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,30 +10,25 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white p-4 z-auto">
-      <div className="flex items-center justify-evenly">
-        <div className="flex items-center">
+      <div className="flex items-center justify-between md:justify-evenly">
+        <a href="/" className="flex items-center ">
           <img
-            src="/src/assets/logo-dark.png"
-            alt="Logo"
+            src="/logo-dark.png"
+            alt="Isaac Omolehin Ministries Logo"
             className="h-8 w-auto mr-4"
           />
-        </div>
+        </a>
         {/* Hamburger menu icon */}
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-black focus:outline-none focus:text-black"
+            className="text-black focus:outline-none focus:text-black transition duration-150 ease-in-out"
           >
-            <svg
-              className="h-6 w-6 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fillRule="evenodd"
-                d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"
-              />
-            </svg>
+            {isOpen ? ( // Render different SVG icon based on isOpen state
+              <IoClose size={25} />
+            ) : (
+              <IoMenu size={25} />
+            )}
           </button>
         </div>
         {/* Navbar menu */}
@@ -69,9 +65,11 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+      {isOpen && <hr className="md:hidden border-black mt-4" />}
+
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden mt-4">
+        <div className="md:hidden mt-4 flex flex-col justify-center items-center gap-4">
           <a href="/" className="block text-black">
             Home
           </a>
