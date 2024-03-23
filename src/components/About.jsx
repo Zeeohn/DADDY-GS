@@ -1,5 +1,4 @@
 import React from "react";
-import GS2 from "/src/assets/GS2.png";
 
 const About = () => {
   return (
@@ -13,7 +12,7 @@ const About = () => {
         <div
           className="hidden md:flex bg-no-repeat relative min-h-screen w-full bg-cover bg-blend-overlay flex-1"
           style={{
-            backgroundImage: "url('/src/assets/GS2.png')",
+            backgroundImage: "url('/GS2.png')",
             backgroundPosition: "center top",
             backgroundSize: "170%",
             maxWidth: "100vw",
@@ -22,7 +21,7 @@ const About = () => {
         <div
           className="flex md:hidden bg-no-repeat relative min-h-screen w-full bg-cover bg-blend-overlay flex-1"
           style={{
-            backgroundImage: "url('/src/assets/GS2.png')",
+            backgroundImage: "url('/GS2.png')",
             backgroundPosition: "center",
           }}
         ></div>

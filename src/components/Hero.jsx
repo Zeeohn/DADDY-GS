@@ -6,7 +6,7 @@ const Hero = () => {
       <div
         className="hidden bg-no-repeat relative md:flex flex-col min-h-screen bg-cover bg-bottom bg-blend-overlay"
         style={{
-          backgroundImage: "url('/src/assets/GS1.png')",
+          backgroundImage: "url('/GS1.png')",
           backgroundPosition: "left center",
           backgroundSize: "130%",
           maxWidth: "100vw",
@@ -41,7 +41,7 @@ const Hero = () => {
       <div
         className="flex md:hidden bg-no-repeat relative flex-col min-h-screen bg-cover bg-bottom bg-blend-overlay"
         style={{
-          backgroundImage: "url('/src/assets/GS1.png')",
+          backgroundImage: "url('/GS1.png')",
           backgroundPosition: "center",
         }}
       >
@@ -75,7 +75,7 @@ const Hero = () => {
         <div
           className="bg-no-repeat relative min-h-[50vh] max-w-[30%] bg-cover bg-blend-overlay flex-1"
           style={{
-            backgroundImage: "url('/src/assets/GS2.png')",
+            backgroundImage: "url('/GS2.png')",
             backgroundPosition: "center top",
             backgroundSize: "160%",
             // maxWidth: "100vw",
@@ -100,7 +100,7 @@ const Hero = () => {
         <div
           className="bg-no-repeat relative min-h-[50vh] max-w-full bg-cover bg-blend-overlay flex-1"
           style={{
-            backgroundImage: "url('/src/assets/GS2.png')",
+            backgroundImage: "url('/GS2.png')",
             backgroundPosition: "center",
             // backgroundSize: "160%",
             // maxWidth: "100vw",

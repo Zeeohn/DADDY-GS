@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-black flex flex-col md:flex-row flex-1 bottom-0 justify-evenly h-full py-20 md:h-48 md:py-1">
       <div className="flex justify-center items-center md:flex-1">
         <img
-          src="/src/assets/logo-light.png"
+          src="/logo-light.png"
           alt="Isaac Omolehin Ministries Logo"
           className="h-10 w-auto"
         />
