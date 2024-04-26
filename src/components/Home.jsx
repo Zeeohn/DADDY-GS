@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { IoMdArrowDropright } from "react-icons/io";
 import { IoHeart } from "react-icons/io5";
+import Microlink from "@microlink/react";
 import Hero from "./Hero";
 import eventsData from "../data/events.json";
 import messagesData from "../data/messages.json";
 
 const Home = () => {
-  const [activeTab, setActiveTab] = useState("Ongoing");
-  const [activeMessageTab, setActiveMessageTab] = useState("Series");
+  const [activeTab, setActiveTab] = useState("Recent");
+  const [activeMessageTab, setActiveMessageTab] = useState("Trending");
   const [events, setEvents] = useState([]);
   const [messages, setMessages] = useState([]);
 
@@ -30,13 +31,14 @@ const Home = () => {
       case "Past":
         return events.filter((event) => new Date(event.endDate) < today);
       case "Recent":
-        return events.filter((event) => {
-          const oneWeekFromEndDate = new Date(event.endDate);
-          oneWeekFromEndDate.setDate(oneWeekFromEndDate.getDate() + 7);
-          return (
-            new Date(event.endDate) <= today && today <= oneWeekFromEndDate
-          );
-        });
+        return events.filter((event) => new Date(event.endDate) < today);
+      // return events.filter((event) => {
+      //   const oneWeekFromEndDate = new Date(event.endDate);
+      //   oneWeekFromEndDate.setDate(oneWeekFromEndDate.getDate() + 7);
+      //   return (
+      //     new Date(event.endDate) <= today && today <= oneWeekFromEndDate
+      //   );
+      // });
       case "Ongoing":
         return events.filter(
           (event) =>
@@ -44,7 +46,7 @@ const Home = () => {
             new Date(event.endDate) >= today
         );
       case "Upcoming":
-        return events.filter((event) => new Date(event.startDate) > today);
+        return events.filter((event) => new Date(event.startDate) >= today);
       default:
         return events;
     }
@@ -61,7 +63,7 @@ const Home = () => {
             <h2 className="tracking-[0.1em] md:tracking-[0.2em] text-xl md:text-2xl font-Inter font-bold text-center md:flex-1 text-black">
               EVENTS
             </h2>
-            <a
+            {/* <a
               href="/media"
               className="font-Inter text-xs md:text-sm  font-normal tracking-[0.1em] flex"
             >
@@ -69,10 +71,10 @@ const Home = () => {
               <span>
                 <IoMdArrowDropright size={20} />
               </span>
-            </a>
+            </a> */}
           </div>
           <div className="grid grid-cols-1 mx-5 md:mx-0 sm:grid-cols-2 gap-4 md:flex md:items-center md:justify-evenly md:gap-0 mb-6">
-            <button
+            {/* <button
               onClick={() => handleTabChange("Past")}
               className={`px-14 font-Inter text-base py-1 border border-black ${
                 activeTab === "Past"
@@ -81,7 +83,7 @@ const Home = () => {
               }`}
             >
               PAST
-            </button>
+            </button> */}
             <button
               onClick={() => handleTabChange("Recent")}
               className={`px-14 font-Inter text-base py-1 border border-black ${
@@ -92,7 +94,7 @@ const Home = () => {
             >
               RECENT
             </button>
-            <button
+            {/* <button
               onClick={() => handleTabChange("Ongoing")}
               className={`px-14 font-Inter text-base py-1 border border-black ${
                 activeTab === "Ongoing"
@@ -101,7 +103,7 @@ const Home = () => {
               }`}
             >
               ONGOING
-            </button>
+            </button>*/}
             <button
               onClick={() => handleTabChange("Upcoming")}
               className={`px-14 font-Inter text-base py-1 border border-black ${
@@ -144,7 +146,7 @@ const Home = () => {
             <h2 className="tracking-[0.1em] md:tracking-[0.2em] text-xl md:text-2xl font-Inter font-bold text-center md:flex-1 text-black">
               MESSAGES
             </h2>
-            <a
+            {/* <a
               href="/media"
               className="font-Inter text-xs md:text-sm font-normal items-center justify-center tracking-[0.1em] flex"
             >
@@ -152,7 +154,7 @@ const Home = () => {
               <span>
                 <IoMdArrowDropright size={20} />
               </span>
-            </a>
+            </a> */}
           </div>
           <div className="grid grid-cols-1 mx-5 md:mx-0 sm:grid-cols-2 gap-4 md:flex md:items-center md:justify-evenly md:gap-0 mb-6">
             <button
@@ -173,9 +175,9 @@ const Home = () => {
                   : "bg-white text-black"
               }`}
             >
-              POPULAR
+              ALL CATEGORIES
             </button>
-            <button
+            {/* <button
               onClick={() => handleMessageTabChange("Series")}
               className={`px-14 font-Inter text-base py-1 border border-black ${
                 activeMessageTab === "Series"
@@ -194,7 +196,7 @@ const Home = () => {
               }`}
             >
               SHILOH
-            </button>
+            </button> */}
             <button
               onClick={() => handleMessageTabChange("Featured")}
               className={`px-14 font-Inter text-base py-1 border border-black ${
@@ -208,26 +210,45 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 pt-2">
             {messages.map((message) => (
-              <a key={message.id} href={message.link}>
+              <div key={message.id} href={message.link}>
                 {message.image === null ? (
                   <div className="bg-gray-100 h-48 object-cover w-full p-4 rounded-md shadow-md"></div>
                 ) : (
-                  <img
-                    src={message.image}
-                    alt={message.title}
-                    className="w-full h-48 rounded-md object-cover mb-2 shadow-md"
+                  // <img
+                  //   src={message.image}
+                  //   alt={message.title}
+                  //   className="w-full h-48 rounded-md object-cover mb-2 shadow-md"
+                  // />
+                  // <iframe
+                  //   width="560"
+                  //   height="315"
+                  //   src={message.src}
+                  //   title={message.title}
+                  //   frameborder="0"
+                  //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  //   referrerpolicy="strict-origin-when-cross-origin"
+                  //   allowfullscreen
+                  // ></iframe>
+                  <Microlink
+                    url={message.src}
+                    size="large"
+                    style={{
+                      width: "100%",
+                      // height: "100%",
+                      borderRadius: "8px",
+                    }}
                   />
                 )}
                 <div className="flex mt-4 justify-between items-center flex-row">
                   <h3 className="text-sm text-center font-Inter font-bold">
                     {message.title}
                   </h3>
-                  <div className="flex flex-row items-center justify-center">
+                  {/* <div className="flex flex-row items-center justify-center">
                     <IoHeart size={20} color="red" />
                     <p className="text-xs font-Inter">&nbsp;{message.likes}</p>
-                  </div>
+                  </div> */}
                 </div>
-              </a>
+              </div>
             ))}
           </div>
         </div>

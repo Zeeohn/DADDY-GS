@@ -1,38 +1,68 @@
 [
   {
     "id": 1,
-    "title": "OWCRUS (OMOLEHIN WORLD CRUSADE)",
-    "image": null,
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum"
+    "title": "CHARITY SHOP",
+    "image": "/charity.png",
+    "description": "We discovered a number of people who want to give for the work of God do not have cash. But they have certain goods or materials they no longer use, children have outgrown their sizes etc. They donate such materials to the shop where the items are sold cheaper and then give the money given to the ministry. <br /> <br /> For further enquiries, contact ………………………………"
   },
   {
     "id": 2,
-    "title": "OMOLEHIN COLLEGE OF MISSIONS AND EVANGELSIM",
-    "image": null,
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum"
+    "title": "AGRICULTURE AND FARMING",
+    "image": "/agriculture.png",
+    "description": "As the number of people we have to care for increased, from orphans to elderlies.  Mentally challenged school fees for the children in school etc even so the number of donors and the sizes of the donations declined.  We were facing a rising cost of caring in the face of declining income.  What do we do? We opened up farms where the kids work at weekends and during holidays.  We grow much of our own food, fish, meat milk, eggs ect.  We sell the excess to pay salaries and to buy the items we do not produce. <br /> <br /> For further enquiries, contact………………………"
   },
   {
     "id": 3,
-    "title": "SHILOH",
-    "image": null,
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum"
+    "title": "CENTER FOR THE REHABILITATION OF MENTALLY CHALLENGED WOMEN",
+    "image": "/rehabilitation.png",
+    "description": "With more people becoming poor, we found increasing number of mad women on our streets in the city where we live, Ilorin. <br /> <br /> They are being abused at night and in the end, they have babies on the street or in the ghetto or abandoned buildings where they live.  Six of the children in the orphanage are taken from these women.  We found out that many of them will not allow us to take the kids from them.  And even if they give us their babies, they will soon be pregnant again.  So we decided to build a centre for their rehabilitation. <br /> <br /> Amazingly, some have recovered completely and are now employed in the poultry and they also look after their own kids from their salary.  Some others said they will want to engage in petty trading.  We have empowered those also to own small shops where they sell wares and also pay their children’s school fees. <br /><br /> Some of those children are brilliant. <br /><br /> They are now in higher institutions. For further enquiries, contact………………………….."
   },
   {
     "id": 4,
-    "title": "HOPE ORPHANAGE",
-    "image": null,
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum"
+    "title": "SHILOH",
+    "image": "/shiloh.webp",
+    "description": "In 1998, Practitioners of African Traditional medicine gathered in Ilorin city Stadium to have a Trado-medicine fair.  There various items of voodoo magic and witchcraft were on open display.  Clients were streaming in for different consultations.  At nights, cars with stickers “We are Champions”, “My Year of Victory”. “Am Born to reign” line the various booths to seek the help of the witch doctors.  Christianity in Ilorin went down. <br /> <br /> The Spirit of the Lord stirred his servant Isaac Omolehin, he raised a prayer team, went on a 40 Day crusade to counter the 30 Day fair of the traditional medicine Practitioners which openly involved so much fetish and demonic invocations. <br /> <br /> The venue was also the city Stadium.  It became the spring board for revival in Ilorin and remained so since 1999 as a yearly festival of the word of God. <br /> <br /> It now runs for 120 days morning and evening daily from January 1 to April 30 every year.  The Theme has been <strong><em>“REPENT FOR THE KINGDOM OF HEAVEN IS AT HAND”</em></strong>. And it has not changed since then. <br /> <br /> God has used Shiloh to save many souls, healed many sick, blessed many barren with the fruit of the womb and has been used by God to bring revival to many individuals and congregations."
   },
   {
     "id": 5,
     "title": "MOTHERS OF CHARITY (FEEDING THE POOR)",
-    "image": null,
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum"
+    "image": "/feed.webp",
+    "description": "As the number of poor people increases in the society daily, we began to develop a program to feed the poor and the beggars in our community.  A group of women took up this ministry; we started with about sixty people a month which average two people day.  Now we feed over 300 people and each time we cook food to distribute, we came back with many more not getting; our Lord Jesus Christ fed the hungry.  When Peter and the others leaders brought Paul and Barnabas into the Apostolic ring, they were given the right hand of fellowship with the instruction “Remember the poor” and Paul added “the same which I also was forward to do.  Galatians 2:10 <br /> <br />For us, it is the same which we are “also forward to do” <br /> <br /> For further enquiries, contact…………………………………"
   },
   {
     "id": 6,
-    "title": "RURAL BOREHOLES/WATER EVANGELISM",
-    "image": null,
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum"
+    "title": "BOOKS",
+    "image": "Books.webp",
+    "description": "Evangelist Isaac Omolehin has acquired some experience over the past fifty years that he has committed to writing for generations to come to benefit from. He also has some talents in his understanding of the Bible and exceptional ability to communicate the scriptures.  This insight has largely been committed to writing.  Some of the titles are listed below:"
+  },
+  {
+    "id": 7,
+    "title": "OMOLEHIN COLLEGE OF MISSIONS AND EVANGELISM",
+    "image": "/mission.webp",
+    "description": "Evangelist Isaac Omolehin is committed to raising a new generation of preachers after his kind..  the College is to train younger men and women called into missions and evangelism. The college combines academic excellence that can compare to any theological or seminary institution in the world with the most powerful and anointed spiritual productivity that any Christian worker can hope for in life and in ministry. <br /> <br /><em>Contact: <br /> The Registrar <br />Omolehin College of Mission And Evangelism <br /> <strong>Tel: <a href='tel:+2348035174623'>08035174623</a></strong> </em>"
+  },
+  {
+    "id": 8,
+    "title": "HOPE ORPHANAGE",
+    "image": "/orphanage.webp",
+    "description": "As the transgression of men increases, babies and children are abandoned on our streets, some only a few hours old when found. <br /> <br /> Hope Orphanage helps to rescue and nurse such babies.  Some of them are now in universities while new arrivals are still crawling. <br /> <br /> A children village has been built where both the children and their care givers live.  We also live with them. <br /> <br /> For further enquiries, contact the Administrator……………………………"
+  },
+  {
+    "id": 9,
+    "title": "EDUCATION",
+    "image": "/education.webp",
+    "description": "As the public school system is collapsing in standard and values, the ministry chose to initiate an alternative system to give hope to children who might sink into the decay our system has produced with about 14 million children in Nigeria out of school. From Crèche to Nursery and Primary school, to College.  The ministry has acquired land to build a university of Agriculture. <br /> <br /> For further enquires, <br /> <br /> <em>Contact: <br/> The School Superintendent <br/>Tel: ………………………………… </em>"
+  },
+  {
+    "id": 10,
+    "title": "OLD PEOPLE'S HOME",
+    "image": "/old.png",
+    "description": "As the poverty level rises, the vulnerable groups also multiply in numbers and gravity.  Our women enter the community to identify the elderlies and to assist them in cooking, making their hair, clean the home, wash their cloths. <br/><br/> They are the ones who come with the report of certain of the old women who are dying gradually as a result of hunger and abandonment.  Their children don’t care about them.  Some of the children claimed that their mothers are behind their problems as they cannot get jobs.  So they neglect. <br/><br/> The ministry has built a home where they can live and be cared for.  Some with health challenges can be helped to live just a little longer and even if or when they will die, like Mother Theresa said, that they may die in peace. <br/><br/> For further enquiries, Contact:………………………………"
+  },
+  {
+    "id": 11,
+    "title": "WATER EVANGELISM",
+    "image": "/borehole.webp",
+    "description": "With global warming, water remains a most important commodity for health living and longevity. <br/><br/> Arid lands where people who live there have no access to drinkable water look up to us to provide them water.  We sink Boreholes and in the process draw their attention to the Rivers of living water and to Christ who is the water of life. <br/><br/>Today, we have sunk over forty Boreholes in places where they do not have water and where now Christ is acknowledged as Lord of all. <br/><br/> For further enquiries, Contact……………………………"
   }
 ]

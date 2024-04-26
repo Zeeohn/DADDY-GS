@@ -3,6 +3,8 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { RiTwitterXLine } from "react-icons/ri";
 import { PiFacebookLogo } from "react-icons/pi";
 import { FiYoutube } from "react-icons/fi";
+import { MdOutlineAlternateEmail } from "react-icons/md";
+import { FaPhoneVolume } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -14,7 +16,7 @@ const Footer = () => {
           className="h-10 w-auto"
         />
       </a>
-      <div className="flex items-start md:items-center mt-10 gap-8 md:mt-0 justify-center flex-col md:flex-row md:gap-16 md:flex-1">
+      <div className="flex items-start mt-10 md:items-center gap-8 md:mt-0 justify-center flex-col md:flex-row md:gap-16 md:flex-1">
         <div className="flex justify-center flex-col mt-4 md:mt-0">
           <p className="font-Inter text-white font-extrabold text-sm">
             Connect
@@ -26,21 +28,32 @@ const Footer = () => {
             <a href="https://twitter.com/">
               <RiTwitterXLine size={27} className="text-white" />
             </a>
-            <a href="https://facebook.com/">
+            <a
+              href="https://www.facebook.com/isaacomolehinevanglisticmin?mibextid=ZbWKwL"
+              target="_blank"
+            >
               <PiFacebookLogo size={28} className="text-white" />
             </a>
           </div>
         </div>
-        <div className="flex justify-center flex-col">
+        <div className="flex justify-center flex-col md:mt-0">
           <p className="font-Inter text-white font-extrabold text-sm">
             Contact
           </p>
-          <div className="pt-1.5 flex flex-row gap-2">
+          <div className="pt-1.5 flex flex-col gap-1">
             <a
               href="mailto:info@isaacomolehin.org"
-              className="text-white text-sm font-Inter"
+              className="text-white text-sm font-Inter flex flex-row gap-1 items-center"
             >
-              info@isaacomolehin.com
+              <MdOutlineAlternateEmail size={28} className="text-white" />
+              <span>info@isaacomolehin.com</span>
+            </a>
+            <a
+              href="tel:+2349162439716"
+              className="text-white text-sm font-Inter flex flex-row gap-1 items-center"
+            >
+              <FaPhoneVolume size={25} className="text-white" />
+              <span>+234 916 243 9716</span>
             </a>
           </div>
         </div>
@@ -49,7 +62,10 @@ const Footer = () => {
             Streams
           </p>
           <div className="pt-1.5 flex flex-row gap-2">
-            <a href="https://youtube.com/">
+            <a
+              href="https://youtube.com/@isaacomolehinevangelisticmin?si=ASk8gMk7wi9GPJPL"
+              target="_blank"
+            >
               <FiYoutube size={28} className="text-white" />
             </a>
           </div>
