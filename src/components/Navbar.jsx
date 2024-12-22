@@ -22,6 +22,8 @@ const Navbar = () => {
     setCurrency(currency === "naira" ? "dollar" : "naira");
   };
 
+  const navigateSelar = () => {};
+
   const handleAmountChange = (e) => {
     const value = e.target.value;
     let convertedAmount;
@@ -79,12 +81,12 @@ const Navbar = () => {
             >
               Ministry
             </a>
-            {/* <a
-              href="/media"
+            <a
+              href="/gallery"
               className="text-gray-700 font-Inter text-sm hover:text-black"
             >
-              Media
-            </a> */}
+              Gallery
+            </a>
             <a
               href="/contact"
               className="text-gray-700 font-Inter text-sm hover:text-black"
@@ -95,7 +97,15 @@ const Navbar = () => {
               onClick={openPopup}
               className="text-white ml-10 font-Inter text-sm hover:text-black py-2 px-6 rounded-md bg-black hover:bg-white hover:border-black border-2 border-black transition duration-150 ease-in-out"
             >
-              Donate
+              Giving
+            </button>
+            <button
+              onClick={() => {
+                navigateSelar();
+              }}
+              className="hover:text-white ml-10 font-Inter text-sm text-black py-2 px-6 rounded-md hover:bg-black bg-white hover:border-black border-2 border-black transition duration-150 ease-in-out"
+            >
+              Shop
             </button>
           </div>
         </div>
@@ -113,9 +123,9 @@ const Navbar = () => {
             <a href="/ministry" className="block text-black">
               Ministry
             </a>
-            {/* <a href="/media" className="block text-black">
-              Media
-            </a> */}
+            <a href="/gallery" className="block text-black">
+              Gallery
+            </a>
             <a href="/contact" className="block text-black">
               Contact
             </a>
@@ -124,6 +134,14 @@ const Navbar = () => {
               className="text-white block mt-4 font-Inter text-sm hover:text-black py-2 px-6 rounded-md bg-black hover:bg-white hover:border-black border-2 border-black transition duration-150 ease-in-out"
             >
               Donate
+            </button>
+            <button
+              onClick={() => {
+                navigateSelar();
+              }}
+              className="hover:text-white block mt-4 font-Inter text-sm text-black py-2 px-6 rounded-md hover:bg-black bg-white hover:border-black border-2 border-black transition duration-150 ease-in-out"
+            >
+              Shop
             </button>
           </div>
         )}

@@ -3,13 +3,15 @@
     "id": 1,
     "title": "THE MIGHTY POWER OF GOD | REV ISAAC OMOLEHIN | DIS2024 | DAY 2",
     "src": "https://www.youtube.com/watch?v=ePJ3W51NdLw",
-    "likes": "800k"
+    "likes": "800k",
+    "image": "../assets/mighty-power.jpg"
   },
   {
     "id": 2,
     "title": "DIVINE IMPACT SUMMIT I DAY 2 | | MINISTERS' SUMMIT || REV. ISAAC OMOLEHIN || 2ND FEBRUARY 2024",
     "src": "https://www.youtube.com/watch?v=eRR9ZIReQA0",
-    "likes": "10M"
+    "likes": "10M",
+    "images": "../assets/divine-impact.jpg"
   },
   {
     "id": 3,
