@@ -7,6 +7,7 @@ import Ministry from "./components/Ministry";
 import Media from "./components/Media";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
+import FloatingWhatsappButton from "./components/FloatingWhatsappButton";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <FloatingWhatsappButton />
     </Router>
   );
 }

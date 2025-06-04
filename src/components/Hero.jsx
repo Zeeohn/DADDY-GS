@@ -12,6 +12,12 @@ const Hero = () => {
           maxWidth: "100vw",
         }}
       >
+        <div className="absolute left-0 right-0 h-16 py-2 flex flex-row bg-black opacity-70 justify-center items-center text-white font-Inter text-2xl z-20">
+          TO GET IN CONTACT, REACH OUT VIA DIRECT CALLS/WHATSAPP:{" "}
+          <a href="tel:+23456789013452" className="font-extrabold font-sans">
+            +23456789013452
+          </a>
+        </div>
         <div className="absolute inset-0 md:bg-transparent bg-black opacity-50 z-0"></div>
         <div className="flex flex-col flex-grow my-48 items-center md:items-start md:ml-24 z-20">
           <p className="text-white font-Inter text-center text-2xl">
@@ -46,6 +52,12 @@ const Hero = () => {
         }}
       >
         <div className="absolute inset-0 md:bg-transparent bg-black opacity-70 z-0"></div>
+        <div className="absolute left-0 right-0 h-16 py-2 px-2 flex flex-row flex-wrap bg-black opacity-70 justify-center text-white font-Inter text-[10px] z-20">
+          TO GET IN CONTACT, REACH OUT VIA DIRECT CALLS/WHATSAPP:{" "}
+          <a href="tel:+23456789013452" className="font-extrabold font-sans">
+            +23456789013452
+          </a>
+        </div>
         <div className="flex flex-col flex-grow my-48 items-center justify-center z-20">
           <p className="text-white font-Inter text-center text-2xl">
             To the end of the <br />{" "}
