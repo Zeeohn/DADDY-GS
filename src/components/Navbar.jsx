@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   const navigateSelar = () => {
-    window.open("https://selar.co/isaacomolehin", "_blank");
+    window.open("https://selar.co/m/isaac-omolehin1", "_blank");
   };
 
   const handleAmountChange = (e) => {
