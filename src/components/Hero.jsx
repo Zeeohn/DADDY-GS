@@ -1,4 +1,5 @@
-import React from "react";
+const whatsappNumber = "+2349162439716";
+const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, "")}`;
 
 const Hero = () => {
   return (
@@ -13,9 +14,9 @@ const Hero = () => {
         }}
       >
         <div className="absolute left-0 right-0 h-16 py-2 flex flex-row bg-black opacity-70 justify-center items-center text-white font-Inter text-2xl z-20">
-          TO GET IN CONTACT, REACH OUT VIA DIRECT CALLS/WHATSAPP:{" "}
-          <a href="tel:+23456789013452" className="font-extrabold font-sans">
-            +23456789013452
+          TO GET IN TOUCH, REACH OUT VIA WHATSAPP ONLY:{" "}
+          <a href={whatsappLink} className="font-extrabold font-sans">
+            &nbsp; +234 916 243 9716
           </a>
         </div>
         <div className="absolute inset-0 md:bg-transparent bg-black opacity-50 z-0"></div>
@@ -34,11 +35,11 @@ const Hero = () => {
         <div className="flex z-50">
           <div className="bg-white bg-opacity-80 flex flex-row ">
             <p className=" py-16 px-20 md:py-20 md:px-56 font-Inter">
-              "<span className="font-Oldenglish text-3xl">G</span>o therefore
-              and make disciples of all nations, baptizing them in the name of
-              the Father and of the Son and of the Holy Spirit, and teaching
-              them to obey everything that I have commanded you. And remember, I
-              am with you always, to the end of the age.” <br />{" "}
+              &quot;<span className="font-Oldenglish text-3xl">G</span>o
+              therefore and make disciples of all nations, baptizing them in the
+              name of the Father and of the Son and of the Holy Spirit, and
+              teaching them to obey everything that I have commanded you. And
+              remember, I am with you always, to the end of the age.” <br />{" "}
               <span className="font-bold font-Inter">Matthew 28:19-20</span>
             </p>
           </div>
@@ -53,9 +54,9 @@ const Hero = () => {
       >
         <div className="absolute inset-0 md:bg-transparent bg-black opacity-70 z-0"></div>
         <div className="absolute left-0 right-0 h-16 py-2 px-2 flex flex-row flex-wrap bg-black opacity-70 justify-center text-white font-Inter text-[10px] z-20">
-          TO GET IN CONTACT, REACH OUT VIA DIRECT CALLS/WHATSAPP:{" "}
-          <a href="tel:+23456789013452" className="font-extrabold font-sans">
-            +23456789013452
+          TO GET IN TOUCH, REACH OUT VIA WHATSAPP ONLY:{" "}
+          <a href={whatsappLink} className="font-extrabold font-sans">
+            &nbsp; +234 916 243 9716
           </a>
         </div>
         <div className="flex flex-col flex-grow my-48 items-center justify-center z-20">
@@ -73,11 +74,11 @@ const Hero = () => {
         <div className="flex z-50">
           <div className="bg-white bg-opacity-80 flex flex-row ">
             <p className="py-16 px-16 font-Inter">
-              "<span className="font-Oldenglish text-3xl">G</span>o therefore
-              and make disciples of all nations, baptizing them in the name of
-              the Father and of the Son and of the Holy Spirit, and teaching
-              them to obey everything that I have commanded you. And remember, I
-              am with you always, to the end of the age.” <br />{" "}
+              &quot;<span className="font-Oldenglish text-3xl">G</span>o
+              therefore and make disciples of all nations, baptizing them in the
+              name of the Father and of the Son and of the Holy Spirit, and
+              teaching them to obey everything that I have commanded you. And
+              remember, I am with you always, to the end of the age.” <br />{" "}
               <span className="font-bold font-Inter">Matthew 28:19-20</span>
             </p>
           </div>

@@ -1,6 +1,4 @@
-import React from "react";
-
-const whatsappNumber = "+23456789013452";
+const whatsappNumber = "+2349162439716";
 const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, "")}`;
 
 const FloatingWhatsappButton = () => {

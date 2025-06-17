@@ -1,128 +1,54 @@
-import React, { useState, useEffect } from "react";
-import { IoMdArrowDropright } from "react-icons/io";
+import { useState, useEffect } from "react";
 import { IoHeart } from "react-icons/io5";
-import Microlink from "@microlink/react";
 import Hero from "./Hero";
 import eventsData from "../data/events.json";
-import mighty from "../assets/mighty-power.jpg";
-import divine from "../assets/divine-impact.jpg";
-import great from "../assets/great-power.jpg";
-import contending from "../assets/contending-endtime.jpg";
-import demonstration from "../assets/demonstration-spirit.jpg";
-import filled from "../assets/filled-spirit.jpg";
-import spirit from "../assets/spirit-lord.jpg";
-import role from "../assets/role-father.jpg";
-import infiltrating from "../assets/infiltrating-enemies.jpg";
-import transforming from "../assets/transforming-lives.jpg";
-import be from "../assets/be-seperate.jpg";
-import eagle from "../assets/eagles-wings.jpg";
+import {
+  getYouTubeVideos,
+  YOUTUBE_API_KEY,
+  YOUTUBE_CHANNEL_ID,
+} from "../utils/youtube";
+
 // import messagesData from "../data/messages.json";
 
-const Home = () => {
-  const messagesData = [
-    {
-      id: 1,
-      title: "THE MIGHTY POWER OF GOD | REV ISAAC OMOLEHIN | DIS2024 | DAY 2",
-      src: "https://www.youtube.com/watch?v=ePJ3W51NdLw",
-      likes: "800k",
-      image: mighty,
-    },
-    {
-      id: 2,
-      title:
-        "DIVINE IMPACT SUMMIT I DAY 2 | | MINISTERS' SUMMIT || REV. ISAAC OMOLEHIN || 2ND FEBRUARY 2024",
-      src: "https://www.youtube.com/watch?v=eRR9ZIReQA0",
-      likes: "10M",
-      image: divine,
-    },
-    {
-      id: 3,
-      title: "GREAT POWER 'EVANG. ISAAC OMOLEHIN'",
-      src: "https://www.youtube.com/watch?v=K_trcle3U8s",
-      likes: "250k",
-      image: great,
-    },
-    {
-      id: 4,
-      title: "CONTENDING FOR THE ENDTIME CHURCH | REV. ISAAC OMOLEHIN",
-      src: "https://www.youtube.com/watch?v=jVQDjg1eScs",
-      likes: "250k",
-      image: contending,
-    },
-    {
-      id: 5,
-      title:
-        "EVANG ISAAC OMOLEHIN || DEMONSTRATION OF THE SPIRIT & POWER || ETHANIM 2022 || DAY 3 - MORNING",
-      src: "https://www.youtube.com/watch?v=oH1zvvzR4kw",
-      likes: "250k",
-      image: demonstration,
-    },
-    {
-      id: 6,
-      title: "EVANG OMOLEHIN - BE FILLED WITH THE SPIRIT || ETHANIM 2023",
-      src: "https://www.youtube.com/watch?v=v9DNu1aJGqM",
-      likes: "250k",
-      image: filled,
-    },
-    {
-      id: 7,
-      title:
-        "EVANG. ISAAC OMOLEHIN - THE SPIRIT OF THE LORD || ETHANIM 2023 || DAY 3 || MORNING SESSION",
-      src: "https://www.youtube.com/watch?v=Xh4Jlq3xn9o",
-      likes: "250k",
-      image: spirit,
-    },
-    {
-      id: 8,
-      title: "THE ROLE OF FATHER IN ENLARGEMENT BY ISAAC OMOLEHIN",
-      src: "https://www.youtube.com/watch?v=9QeSfRtUC2o",
-      likes: "250k",
-      image: role,
-    },
-    {
-      id: 9,
-      title: "INFILTRATING THE ENEMIES TERRITORY by Rev Isaac Omolehin",
-      src: "https://www.youtube.com/watch?v=QaOI8M2jzJ8",
-      likes: "250k",
-      image: infiltrating,
-    },
-    {
-      id: 10,
-      title:
-        "TRANSFORMING LIVES AND SHAPING THE CULTURE  by Rev Isaac Omolehin",
-      src: "https://www.youtube.com/watch?v=1fUsZxhEGpA",
-      likes: "250k",
-      image: transforming,
-    },
-    {
-      id: 11,
-      title: "BE YE SEPERATE BY REV  ISAAC OMOLEHIN",
-      src: "https://www.youtube.com/watch?v=qBAN98zhjXk",
-      likes: "250k",
-      image: be,
-    },
-    {
-      id: 12,
-      title: `April 2023 Milk and Honey Seminar Day 3 ("Climbing on Eagles Wings": Evangelist Isaac Omolehin)`,
-      src: "https://www.youtube.com/live/No-YaMhNpFw?si=1lQbCuAJDszMkdx2",
-      likes: "250k",
-      image: eagle,
-    },
-  ];
+// Utility to decode HTML entities in YouTube titles
+function decodeHtmlEntities(str) {
+  if (!str) return "";
+  const txt = document.createElement("textarea");
+  txt.innerHTML = str;
+  return txt.value;
+}
 
+const Home = () => {
   const [activeTab, setActiveTab] = useState("Recent");
   const [activeMessageTab, setActiveMessageTab] = useState("Trending");
   const [events, setEvents] = useState([]);
-  const [messages, setMessages] = useState([]);
+  const [youtubePreview, setYoutubePreview] = useState([]);
+  const [youtubePreviewLoading, setYoutubePreviewLoading] = useState(false);
 
   useEffect(() => {
     setEvents(eventsData);
-    setMessages(messagesData);
   }, []);
 
-  const handleTabChange = (tab) => {
-    setActiveTab(tab);
-  };
+  // Fetch preview videos for Home page messages section
+  useEffect(() => {
+    async function fetchPreview() {
+      setYoutubePreviewLoading(true);
+      try {
+        const filterType = activeMessageTab.toLowerCase();
+        const data = await getYouTubeVideos({
+          apiKey: YOUTUBE_API_KEY,
+          channelId: YOUTUBE_CHANNEL_ID,
+          maxResults: 12,
+          filterType,
+        });
+        setYoutubePreview(data.items || []);
+      } catch (e) {
+        setYoutubePreview([]);
+      }
+      setYoutubePreviewLoading(false);
+    }
+    fetchPreview();
+  }, [activeMessageTab]);
 
   const handleMessageTabChange = (tab) => {
     setActiveMessageTab(tab);
@@ -154,8 +80,6 @@ const Home = () => {
         return events;
     }
   };
-
-  const filteredEvents = filterEvents(events);
 
   return (
     <div>
@@ -312,47 +236,39 @@ const Home = () => {
             </button>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 pt-2">
-            {messages.map((message) => (
-              <a key={message.id} href={message.src}>
-                {message.image === null ? (
-                  <div className="bg-gray-100 h-48 object-cover w-full p-4 rounded-md shadow-md"></div>
-                ) : (
+            {youtubePreviewLoading ? (
+              <p>Loading videos...</p>
+            ) : youtubePreview.length === 0 ? (
+              <p>No videos found.</p>
+            ) : (
+              youtubePreview.map((video) => (
+                <a
+                  key={video.id.videoId}
+                  href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
-                    src={message.image}
-                    alt={message.title}
+                    src={video.snippet.thumbnails.medium.url}
+                    alt={decodeHtmlEntities(video.snippet.title)}
                     className="w-full h-48 rounded-md object-cover mb-2 shadow-md"
                   />
-                  // <iframe
-                  //   width="560"
-                  //   height="315"
-                  //   src={message.src}
-                  //   title={message.title}
-                  //   frameborder="0"
-                  //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  //   referrerpolicy="strict-origin-when-cross-origin"
-                  //   allowfullscreen
-                  // ></iframe>
-                  // <Microlink
-                  //   url={message.src}
-                  //   size="large"
-                  //   style={{
-                  //     width: "100%",
-                  //     // height: "100%",
-                  //     borderRadius: "8px",
-                  //   }}
-                  // />
-                )}
-                <div className="flex mt-4 justify-between items-center flex-row">
-                  <h3 className="text-sm text-center font-Inter font-bold">
-                    {message.title}
-                  </h3>
-                  {/* <div className="flex flex-row items-center justify-center">
-                    <IoHeart size={20} color="red" />
-                    <p className="text-xs font-Inter">&nbsp;{message.likes}</p>
-                  </div> */}
-                </div>
-              </a>
-            ))}
+                  <div className="flex mt-4 justify-between items-center flex-row">
+                    <h3 className="text-sm text-center font-Inter font-bold">
+                      {decodeHtmlEntities(video.snippet.title)}
+                    </h3>
+                  </div>
+                </a>
+              ))
+            )}
+          </div>
+          <div className="flex justify-center mt-6">
+            <a
+              href="/media"
+              className="px-6 py-2 bg-black text-white rounded font-Inter font-semibold hover:bg-gray-800 transition"
+            >
+              See More Messages
+            </a>
           </div>
         </div>
       </div>
