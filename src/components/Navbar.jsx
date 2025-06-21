@@ -141,7 +141,7 @@ const Navbar = () => {
               onClick={openPopup}
               className="text-white block mt-4 font-Inter text-sm hover:text-black py-2 px-6 rounded-md bg-black hover:bg-white hover:border-black border-2 border-black transition duration-150 ease-in-out"
             >
-              Donate
+              Giving
             </button>
             <button
               onClick={() => {
@@ -164,7 +164,9 @@ const Navbar = () => {
             >
               <div className="flex flex-row justify-between">
                 <p className="mb-5 mt-8 font-Inter font-bold text-base">
-                  kindly fill this form to make your donations:
+                  kindly contact us via the official WhatsApp number to get the
+                  giving account details. <br /> <br />
+                  Thank you and God bless you abundantly!
                 </p>
                 <button onClick={() => setPopup(false)} className="-mt-16">
                   <IoClose
@@ -173,7 +175,7 @@ const Navbar = () => {
                   />
                 </button>
               </div>
-              <label
+              {/* <label
                 htmlFor="email"
                 className="text-black font-Inter mb-2 font-medium text-sm"
               >
@@ -231,7 +233,7 @@ const Navbar = () => {
                 className="bg-black text-white px-6 py-3 mx-auto mt-5 rounded-md hover:bg-white hover:border-2 hover:border-black hover:text-black"
               >
                 Donate
-              </button>
+              </button> */}
             </form>
           </div>
         </>

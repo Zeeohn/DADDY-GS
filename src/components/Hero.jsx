@@ -14,7 +14,7 @@ const Hero = () => {
         }}
       >
         <div className="absolute left-0 right-0 h-16 py-2 flex flex-row bg-black opacity-70 justify-center items-center text-white font-Inter text-2xl z-20">
-          TO GET IN TOUCH, REACH OUT VIA WHATSAPP ONLY:{" "}
+          TO GET IN TOUCH, REACH OUT VIA WHATSAPP MESSAGES ONLY:{" "}
           <a href={whatsappLink} className="font-extrabold font-sans">
             &nbsp; +234 916 243 9716
           </a>
@@ -54,7 +54,7 @@ const Hero = () => {
       >
         <div className="absolute inset-0 md:bg-transparent bg-black opacity-70 z-0"></div>
         <div className="absolute left-0 right-0 h-16 py-2 px-2 flex flex-row flex-wrap bg-black opacity-70 justify-center text-white font-Inter text-[10px] z-20">
-          TO GET IN TOUCH, REACH OUT VIA WHATSAPP ONLY:{" "}
+          TO GET IN TOUCH, REACH OUT VIA WHATSAPP MESSAGES ONLY:{" "}
           <a href={whatsappLink} className="font-extrabold font-sans">
             &nbsp; +234 916 243 9716
           </a>

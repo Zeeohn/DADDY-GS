@@ -22,7 +22,7 @@ const Footer = () => {
             Connect
           </p>
           <div className="pt-1.5 flex flex-row gap-2">
-            <a href="https://instagram.com/">
+            <a href="https://www.instagram.com/isaac_omolehin_outreach/">
               <AiOutlineInstagram size={28} className="text-white" />
             </a>
             <a href="https://twitter.com/">
