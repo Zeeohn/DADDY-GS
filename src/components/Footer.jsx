@@ -1,9 +1,9 @@
-import React from "react";
+// import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { RiTwitterXLine } from "react-icons/ri";
+// import { RiTwitterXLine } from "react-icons/ri";
 import { PiFacebookLogo } from "react-icons/pi";
 import { FiYoutube } from "react-icons/fi";
-import { MdOutlineAlternateEmail } from "react-icons/md";
+// import { MdOutlineAlternateEmail } from "react-icons/md";
 import { FaPhoneVolume } from "react-icons/fa6";
 
 const Footer = () => {
@@ -25,11 +25,11 @@ const Footer = () => {
             <a href="https://www.instagram.com/isaac_omolehin_outreach/">
               <AiOutlineInstagram size={28} className="text-white" />
             </a>
-            <a href="https://twitter.com/">
+            {/* <a href="https://twitter.com/">
               <RiTwitterXLine size={27} className="text-white" />
-            </a>
+            </a> */}
             <a
-              href="https://www.facebook.com/isaacomolehinevanglisticmin?mibextid=ZbWKwL"
+              href="https://www.facebook.com/isaac.omolehin.2025" //web.facebook.com/
               target="_blank"
             >
               <PiFacebookLogo size={28} className="text-white" />
@@ -41,13 +41,13 @@ const Footer = () => {
             Contact
           </p>
           <div className="pt-1.5 flex flex-col gap-1">
-            <a
+            {/* <a
               href="mailto:info@isaacomolehin.org"
               className="text-white text-sm font-Inter flex flex-row gap-1 items-center"
             >
               <MdOutlineAlternateEmail size={28} className="text-white" />
               <span>info@isaacomolehin.com</span>
-            </a>
+            </a> */}
             <a
               href="tel:+2349162439716"
               className="text-white text-sm font-Inter flex flex-row gap-1 items-center"

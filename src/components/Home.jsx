@@ -7,6 +7,7 @@ import {
   YOUTUBE_API_KEY,
   YOUTUBE_CHANNEL_ID,
 } from "../utils/youtube";
+import ebook from "../assets/ebooks.jpg";
 
 // import messagesData from "../data/messages.json";
 
@@ -52,6 +53,10 @@ const Home = () => {
 
   const handleMessageTabChange = (tab) => {
     setActiveMessageTab(tab);
+  };
+
+  const handleRedirect = () => {
+    window.open("https://linktr.ee/Omolehin", "_blank");
   };
 
   const filterEvents = (events) => {
@@ -168,7 +173,15 @@ const Home = () => {
           </div>
         </div> */}
 
-        <div className="mt-8 mb-10">
+        <div className="flex w-full mt-6" onClick={handleRedirect}>
+          <img
+            src={ebook}
+            alt="Ebook"
+            className="w-full h-full object-cover rounded-md shadow-md cursor-pointer"
+          />
+        </div>
+
+        <div className="mt-6 mb-10">
           <div className="flex items-center justify-between pt-10 pb-10">
             <h2 className="tracking-[0.1em] md:tracking-[0.2em] text-xl md:text-2xl font-Inter font-bold text-center md:flex-1 text-black">
               MESSAGES
