@@ -1,5 +1,5 @@
-const whatsappNumber = "+2349162439716";
-const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, "")}`;
+// const whatsappNumber = "+2349162439716";
+// const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, "")}`;
 
 // import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
@@ -7,7 +7,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { PiFacebookLogo } from "react-icons/pi";
 import { FiYoutube } from "react-icons/fi";
 // import { MdOutlineAlternateEmail } from "react-icons/md";
-import { FaPhoneVolume } from "react-icons/fa6";
+// import { FaPhoneVolume } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -39,18 +39,18 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="flex justify-center flex-col md:mt-0">
+        {/* <div className="flex justify-center flex-col md:mt-0">
           <p className="font-Inter text-white font-extrabold text-sm">
             Contact
           </p>
           <div className="pt-1.5 flex flex-col gap-1">
-            {/* <a
+            <a
               href="mailto:info@isaacomolehin.org"
               className="text-white text-sm font-Inter flex flex-row gap-1 items-center"
             >
               <MdOutlineAlternateEmail size={28} className="text-white" />
               <span>info@isaacomolehin.com</span>
-            </a> */}
+            </a>
             <a
               href={whatsappLink}
               className="text-white text-sm font-Inter flex flex-row gap-1 items-center"
@@ -59,7 +59,7 @@ const Footer = () => {
               <span>+234 916 243 9716</span>
             </a>
           </div>
-        </div>
+        </div> */}
         <div className="flex justify-center flex-col">
           <p className="font-Inter text-white font-extrabold text-sm">
             YouTube

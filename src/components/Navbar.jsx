@@ -98,12 +98,12 @@ const Navbar = () => {
             >
               Gallery
             </a>
-            <a
+            {/* <a
               href={whatsappLink}
               className="text-gray-700 font-Inter text-sm hover:text-black"
             >
               Contact
-            </a>
+            </a> */}
             <button
               onClick={openPopup}
               className="text-white ml-10 font-Inter text-sm hover:text-black py-2 px-6 rounded-md bg-black hover:bg-white hover:border-black border-2 border-black transition duration-150 ease-in-out"
@@ -137,9 +137,9 @@ const Navbar = () => {
             <a href="/gallery" className="block text-black">
               Gallery
             </a>
-            <a href={whatsappLink} className="block text-black">
+            {/* <a href={whatsappLink} className="block text-black">
               Contact
-            </a>
+            </a> */}
             <button
               onClick={openPopup}
               className="text-white block mt-4 font-Inter text-sm hover:text-black py-2 px-6 rounded-md bg-black hover:bg-white hover:border-black border-2 border-black transition duration-150 ease-in-out"
