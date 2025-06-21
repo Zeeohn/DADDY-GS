@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Ministry from "./components/Ministry";
 import Media from "./components/Media";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import FloatingWhatsappButton from "./components/FloatingWhatsappButton";
 
@@ -19,7 +19,7 @@ function App() {
         <Route path="/ministry" element={<Ministry />} />
         <Route path="/media" element={<Media />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />
       <FloatingWhatsappButton />

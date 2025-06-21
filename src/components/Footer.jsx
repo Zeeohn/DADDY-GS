@@ -1,3 +1,6 @@
+const whatsappNumber = "+2349162439716";
+const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, "")}`;
+
 // import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 // import { RiTwitterXLine } from "react-icons/ri";
@@ -49,7 +52,7 @@ const Footer = () => {
               <span>info@isaacomolehin.com</span>
             </a> */}
             <a
-              href="tel:+2349162439716"
+              href={whatsappLink}
               className="text-white text-sm font-Inter flex flex-row gap-1 items-center"
             >
               <FaPhoneVolume size={25} className="text-white" />

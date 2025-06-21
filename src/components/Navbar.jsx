@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
 
+const whatsappNumber = "+2349162439716";
+const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, "")}`;
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [popup, setPopup] = useState(false);
@@ -96,7 +99,7 @@ const Navbar = () => {
               Gallery
             </a>
             <a
-              href="/contact"
+              href={whatsappLink}
               className="text-gray-700 font-Inter text-sm hover:text-black"
             >
               Contact
@@ -134,7 +137,7 @@ const Navbar = () => {
             <a href="/gallery" className="block text-black">
               Gallery
             </a>
-            <a href="/contact" className="block text-black">
+            <a href={whatsappLink} className="block text-black">
               Contact
             </a>
             <button
