@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center flex-col">
           <p className="font-Inter text-white font-extrabold text-sm">
-            Streams
+            YouTube
           </p>
           <div className="pt-1.5 flex flex-row gap-2">
             <a
