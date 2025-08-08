@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   const navigateSelar = () => {
-    window.open("https://linktr.ee/Omolehin", "_blank");
+    window.open("https://selar.com/m/isaac-omolehin1", "_blank");
   };
 
   const handleAmountChange = (e) => {
@@ -152,7 +152,7 @@ const Navbar = () => {
               }}
               className="hover:text-white block mt-4 font-Inter text-sm text-black py-2 px-6 rounded-md hover:bg-black bg-white hover:border-black border-2 border-black transition duration-150 ease-in-out"
             >
-              Shop
+              Books
             </button>
           </div>
         )}

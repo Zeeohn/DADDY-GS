@@ -56,7 +56,7 @@ const Home = () => {
   };
 
   const handleRedirect = () => {
-    window.open("https://linktr.ee/Omolehin", "_blank");
+    window.open("https://selar.com/m/isaac-omolehin1", "_blank");
   };
 
   const filterEvents = (events) => {
